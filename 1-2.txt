@@ -1,0 +1,12 @@
+	/*
+	 * ЗАДАНИЕ 1
+	 * FrontController - класс Kernel, в нем создается коллекция роутов и логика уже в нем расходится в разных направлениях
+	 * Взаимодействует с ContainerBuilder, FileLocator, PhpFileLoader, ControllerResolver, ArgumentResolver, Response, косвенно с Route
+	 * */
+
+
+	/*
+	 * app/framework/Registry.php - путь к классу
+	 * Служит для того, чтобы в любом месте можно было обращаться к, например, методу getRoute, который возвращает путь к условному контроллеру
+	 * при этом проверяет, есть ли такой роут
+	 * */
